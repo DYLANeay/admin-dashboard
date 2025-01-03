@@ -4,15 +4,15 @@
     --textPrimary: black;
     --text-primary: black;
     --text-secondary: white;
-    --bg-primary: #23232e;
+    --bg-primary: #2c1e28;
     --bg-secondary: #141418;
     --transition-speed: 1s;
-    --sidebar-color: #0ea5e9;
+    --sidebar-color: #ce0bff;
     --sidebar-width: clamp(210px, 22vw, 325px);
     --nav-bg-1: #f8f8f8;
     --nav-color-1: #c9c9c9;
-    --nav-color-2: #62daff6e;
-    --blue-1: #084c61;
+    --nav-color-2: #ec19ff6e;
+    --blue-1: #780083;
     --gh-avatar: url("https://github.com/DYLANeay.png");
     --gh-avatar2: url("https://github.com/dylan.png");
     --gh-avatar3: url("https://github.com/bob.png");
@@ -231,7 +231,7 @@ img {
 }
 
 .card {
-    background-color: rgba(45, 187, 187, 0.459);
+    background-color: rgba(93, 15, 165, 0.459);
     padding: 2rem;
     border-radius: 0.6rem;
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 /0.1);
@@ -252,7 +252,7 @@ img {
 
 .project .card {
     background-color: var(--nav-color-2);
-    border-left: 10px solid rgb(255, 197, 91);
+    border-left: 10px solid rgb(126, 0, 143);
     display: flex;
     flex-direction: column;
 }
@@ -346,28 +346,28 @@ img {
     margin-bottom: 0.15rem;
 }
 
-.trend-1 .gh-avatar2 {
+.trend-1 .ghAvatar2 {
     background: var(--gh-avatar2) center center / cover no-repeat;
     border-radius: 50%;
     width: 40px;
     height: 40px;
 }
 
-.trend-2 .gh-avatar {
+.trend-2 .ghAvatar {
     background: var(--gh-avatar) center center / cover no-repeat;
     border-radius: 50%;
     width: 40px;
     height: 40px;
 }
 
-.trend-3 .gh-avatar3 {
+.trend-3 .ghAvatar3 {
     background: var(--gh-avatar3) center center / cover no-repeat;
     border-radius: 50%;
     width: 40px;
     height: 40px;
 }
 
-.trend-4 .gh-avatar4 {
+.trend-4 .ghAvatar4 {
     background: var(--gh-avatar4) center center / cover no-repeat;
     border-radius: 50%;
     width: 40px;
